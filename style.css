@@ -1,0 +1,116 @@
+* {
+    background-color:rgb(255, 250, 250);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-attachment: scroll;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #f693b0;
+    text-align: center;
+    padding: 20px 0;
+}
+ nav ul{
+    list-style: none;
+ }
+nav li{
+    display:inline;
+    margin-right: 20px;
+}
+nav a{
+    text-decoration: none ;
+    color: black
+    
+}
+
+a:hover {
+    color: #f693b0
+}
+
+.footer{
+    text-align: bottom;
+}
+
+.container {
+display: flex;
+flex-direction: row;
+padding: 5px;
+}
+
+.img1 {
+    width: 400px;
+    height: 400px;
+}
+
+.container .img1 {
+    padding: 10px;
+    width: 100%
+}
+
+
+.quote {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items:center;
+    height:100vh; 
+    text-align: center; 
+}
+
+.centered-container p {
+    margin-bottom: 7px;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.about-page{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items:center;
+    height:100vh; 
+    text-align: center; 
+    justify-content: center;
+}
+
+.about-page p {
+    margin-bottom: 7px;
+    font-size: 18px;
+    line-height: 2.0; 
+    margin-bottom: 15px; 
+  
+}
+
+
+
+
+
+
+button {
+
+    color: #f693b0; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    cursor: pointer; 
+   text-align: center;
+    
+}
+
+button a {
+    text-decoration: none; 
+    color:palevioletred; 
+}
+
+
+
